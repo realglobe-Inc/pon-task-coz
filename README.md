@@ -75,14 +75,14 @@ Usage
 'use strict'
 
 const pon = require('pon')
-const ponTaskCoz = require('pon-task-coz')
+const coz = require('pon-task-coz')
 
 async function tryExample () {
   let run = pon({
-    myTask01: ponTaskCoz()
+    coz: coz('**/.*.bud')
   })
 
-  run('myTask01')
+  run('coz')
 }
 
 tryExample()
@@ -106,7 +106,7 @@ Define task
 
 | Param | type | Description |
 | ---- | --- | ----------- |
-| patterns | string&amp;#124;string[] |  Pattern to render |
+| patterns | string&#124;string[] |  Pattern to render |
 | options | Object |  Optional settings |
 
 

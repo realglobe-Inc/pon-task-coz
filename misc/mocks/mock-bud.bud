@@ -1,0 +1,10 @@
+module.exports = {
+  force: true,
+  mode: '444',
+  tmpl: "{{now}}",
+  mkdirp: true,
+  path: `${__dirname}/../../tmp/foo/bar.txt`,
+  data: {
+    now: new Date().getTime()
+  }
+}

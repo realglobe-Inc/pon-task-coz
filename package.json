@@ -1,6 +1,6 @@
 {
   "name": "pon-task-coz",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Pon task to run coz",
   "main": "lib",
   "browser": "shim/browser",

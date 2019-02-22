@@ -25,7 +25,7 @@ module.exports = readmeMdBud({
       .filter((filename) => !/index\.js$/.test(filename))
       .map((filename) => {
         let comments = functionComments(filename)
-        return comments && comments[ 0 ]
+        return comments && comments[0]
       })
   }
 })

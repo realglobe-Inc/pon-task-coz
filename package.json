@@ -1,6 +1,6 @@
 {
   "name": "pon-task-coz",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "Pon task to run coz",
   "main": "lib",
   "browser": "shim/browser",
@@ -22,27 +22,24 @@
     "url": "https://github.com/realglobe-Inc/pon-task-coz/issues"
   },
   "homepage": "https://github.com/realglobe-Inc/pon-task-coz#readme",
-  "dependencies": {
-    "co": "^4.6.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "ababel": "^2.0.1",
-    "ababel-es2015": "^2.0.1",
-    "amocha": "^2.0.0",
+    "ababel": "^5.0.9",
+    "amocha": "^5.0.0",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
-    "ape-releasing": "^4.0.4",
+    "ape-releasing": "^5.0.0",
     "ape-tasking": "^4.0.9",
-    "ape-tmpl": "^5.0.20",
-    "ape-updating": "^4.1.0",
-    "coz": "^6.0.20",
+    "ape-tmpl": "^6.0.12",
+    "ape-updating": "^5.0.1",
+    "coz": "^7.0.7",
     "injectmock": "^2.0.0",
-    "pon-context": "^2.0.1",
+    "pon-context": "^3.0.2",
     "pon-doc": "^2.0.1",
     "sugos-travis": "^2.0.7"
   },
   "engines": {
-    "node": ">=6",
-    "npm": ">=4"
+    "node": ">=8",
+    "npm": ">=5"
   }
 }
